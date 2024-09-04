@@ -1,0 +1,53 @@
+Formulário </h1></header>
+<section>
+<form method="post" action="#">
+Nome:<input type="text" name="nome"
+ name ='Antony'
+placeholder="Informe seu nome"><br>
+
+Email:<input type="text" name="email"
+input type="text" name="result= gui.gleyce@gmai.com"
+placeholder="Informe seu email">
+
+<button type="button"> Enviar </button>
+</form>
+<body>
+    <h1>Meu nome é diogo</h1>
+</body>
+</section>
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+section { color: rgb(20, 207, 83);
+
+}
+h1 {
+    color: #d0d6ce;
+}
+
+p {
+    color: #666;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff1100;
+}
+
+
+document.getElementById('botao').onclick = function() {
+    document.getElementById('mensagem').innerHTML = 'Você clicou no botão!';
+};
+        window.alert("Hello world!");
