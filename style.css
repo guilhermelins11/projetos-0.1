@@ -1,0 +1,29 @@
+body {
+    font-family: Arial , sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: aquamarine;
+}
+section { color: rgb(20, 207, 83);
+
+}
+h3 {
+    color: #001aff;
+}
+
+p {
+    color: #37f807;
+}
+
+button {
+    background-color: #52fc0f;
+    color: rgb(255, 0, 0);
+    padding: 10px 20px;
+    border: yellow;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #380cff;
+}
